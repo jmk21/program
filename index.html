@@ -4,10 +4,11 @@
     <link rel = "stylesheet" href = "web.css">
   </head>
 <body>
-  <form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
-  <input type="submit">
-</form>
+  <tr>
+    <td>Select a File to Load:</td>
+    <td><input type="file" id="fileToLoad"></td>
+    <td><button onclick="loadFileAsText()">Load Selected File</button><td>
+  </tr>
   <script src = "web.js"></script>
 </body>
 </html>
